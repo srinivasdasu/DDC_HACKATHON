@@ -1,0 +1,30 @@
+- permission: "0751"
+  value:
+    maya:
+      - value: chan
+      - value: data
+      - permission: "0771"
+        value: images
+      - value:
+          renderData:
+          - value: depth
+          - value: iprImages
+          - value:
+              vray:
+                - value: finalgMap
+                - value: lightMap
+                - value: photonMap
+                - value: shadowMap
+          - value: shaders
+      - permission: "0771"
+        value:
+          scenes:
+            - value: default.mb
+      - value: scripts
+      - value: sound
+      - value:
+          startup:
+          - value: jobSetup.mel
+      - value: textures
+      - permission: "0771"
+        value: workspace.mel

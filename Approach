@@ -1,0 +1,17 @@
+Please find my approach to solve this problem as below:
+
+I took lot of time to understand the problem itself
+Initially I have concentrated on understanding make file and yaml file , I have understood how to parse yaml file and written code for
+getting yaml file data into list of directories. I spend qite more time on make file but I didn't get much info. So I just created a sample make file which may be not be correct.
+
+First I have started on API creation/Businness logic:
+    I spent quite lot more time in parsing yaml data( list of dictionaries) to parse and create a diretory structure from it.
+    I have sturggled a bit as I am new to python ,I learned and written logic for parsing the yaml file and created directory structure succesfully.
+
+    I have handled "Delete" functionality which will recursively delete all directories,folders,and files
+    I have handled "List" functionality partially as it will display all projects created in present directory
+    I have handled "Describe" functionality partially as It will display all files,root,directories created in present directory but not in hireracy wise(I didn't checked this functionality)
+    I didn't implements "type" fucntinality which needs to tell what are the types of projects can create
+
+Today morning only I have started on CLI application and I didn't proceed much further
+I Just parsed the arguments and assigned
